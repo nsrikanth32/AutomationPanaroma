@@ -1,0 +1,31 @@
+<project name="lisa.project" default="lisaTests" basedir=".">
+
+    <property name="LISA_HOME" value="C:\Lisa"/>
+
+    <property name="testReportDir" value="${LISA_HOME}/reports/junit"/>
+
+    <!-- pull in our custom ant tasks -->
+
+    <taskdef resource="AntTasks.properties" classpath="C:\Lisa\bin\lisa-core.jar"/>
+
+    <target name="lisaTests" description="Executes a LISA Test Suite as JUnit tests." >
+
+        <!-- make sure old reports are deleted and that we have a place to report... -->
+
+        <delete dir="${testReportDir}"/>
+
+        <mkdir dir="${testReportDir}"/>
+
+         <junitlisa toDir="${testReportDir}" registry="tcp://registry:2010">
+
+            <lisatest suite="${basedir}/Suites/Release.ste"/>
+
+        </junitlisa>
+
+        <junitlisareport toDir="${testReportDir}"/>
+
+        <echo  message="The JUnit report is available at ${testReportDir}/index.html"/>
+
+    </target>
+
+</project>
