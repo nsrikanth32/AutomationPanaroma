@@ -1,3 +1,0 @@
-Setting up Selenium and writing first test
-============================================
-http://james-willett.com/2015/05/a-gentle-newbie-friendly-guide-to-installing-selenium-webdriver-part-2-get-intellij/
