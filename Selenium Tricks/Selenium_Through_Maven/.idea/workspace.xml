@@ -36,8 +36,8 @@
       <file leaf-file-name="HelloSelenium.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/HelloSelenium.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.31911263">
-              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.5221843">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -455,6 +455,9 @@
     <history-entry file="HelloSelenium_googleTest - 2015.11.18 at 09h 35m 00s.xml">
       <configuration name="HelloSelenium.googleTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="HelloSelenium_googleTest - 2015.11.18 at 09h 41m 34s.xml">
+      <configuration name="HelloSelenium.googleTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
@@ -558,8 +561,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/HelloSelenium.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31911263">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.5221843">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
